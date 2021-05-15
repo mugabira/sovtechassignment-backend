@@ -14,7 +14,8 @@ namespace sovtechassignment
     {
         public static void Main(string[] args)
         {
-            //CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();
+            /**
             var config = new ConfigurationBuilder().AddCommandLine(args).Build();
             var host = new WebHostBuilder()
               .UseKestrel()
@@ -25,6 +26,7 @@ namespace sovtechassignment
               .Build();
 
             host.Run();
+            **/
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
